@@ -1,0 +1,6 @@
+{
+  "programa": "Pila con Arreglo - Dato Basico",
+  "descripcion": "Estructura tipo pila implementada con arreglo. Inserta datos enteros y muestra el contenido del tope a la base.",
+  "datosEntrada": "Datos ingresados: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10\nCapacidad de la pila: 100",
+  "resultado": "Contenido de la pila de tope a base:\n10\n9\n8\n7\n6\n5\n4\n3\n2\n1\n\nTamanio actual: 10"
+}

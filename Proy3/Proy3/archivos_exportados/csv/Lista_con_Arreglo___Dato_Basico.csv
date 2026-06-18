@@ -1,0 +1,13 @@
+Campo,Valor
+Programa,"Lista con Arreglo - Dato Basico"
+Descripcion,"Estructura tipo lista implementada con arreglo para almacenar numeros enteros."
+Datos de entrada,"Datos ingresados: 1, 2, 3, 4, 5
+Capacidad de la lista: 100"
+Resultado,"Contenido de la lista:
+Posicion 0: 1
+Posicion 1: 2
+Posicion 2: 3
+Posicion 3: 4
+Posicion 4: 5
+
+Tamanio actual: 5"

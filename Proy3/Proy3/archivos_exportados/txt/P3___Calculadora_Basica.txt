@@ -1,0 +1,10 @@
+Programa: P3 - Calculadora Basica
+Descripcion: Calculadora con suma, resta, multiplicacion y division.
+
+Datos de entrada:
+Operacion: Suma
+Numero 1: 5
+Numero 2: 8
+
+Resultado:
+Resultado: 13

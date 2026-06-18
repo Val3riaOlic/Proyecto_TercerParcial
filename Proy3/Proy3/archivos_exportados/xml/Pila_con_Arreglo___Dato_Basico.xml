@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<programa>
+    <nombre>Pila con Arreglo - Dato Basico</nombre>
+    <descripcion>Estructura tipo pila implementada con arreglo. Inserta datos enteros y muestra el contenido del tope a la base.</descripcion>
+    <datosEntrada>Datos ingresados: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
+Capacidad de la pila: 100</datosEntrada>
+    <resultado>Contenido de la pila de tope a base:
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+Tamanio actual: 10</resultado>
+</programa>

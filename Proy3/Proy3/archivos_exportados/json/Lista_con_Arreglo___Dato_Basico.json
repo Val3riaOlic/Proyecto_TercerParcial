@@ -1,0 +1,6 @@
+{
+  "programa": "Lista con Arreglo - Dato Basico",
+  "descripcion": "Estructura tipo lista implementada con arreglo para almacenar numeros enteros.",
+  "datosEntrada": "Datos ingresados: 1, 2, 3, 4, 5\nCapacidad de la lista: 100",
+  "resultado": "Contenido de la lista:\nPosicion 0: 1\nPosicion 1: 2\nPosicion 2: 3\nPosicion 3: 4\nPosicion 4: 5\n\nTamanio actual: 5"
+}

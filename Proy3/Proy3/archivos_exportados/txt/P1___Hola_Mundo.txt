@@ -1,0 +1,8 @@
+Programa: P1 - Hola Mundo
+Descripcion: Programa basico que muestra un mensaje en pantalla.
+
+Datos de entrada:
+No requiere datos de entrada.
+
+Resultado:
+Hola Mundo

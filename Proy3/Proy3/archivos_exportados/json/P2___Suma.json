@@ -1,0 +1,6 @@
+{
+  "programa": "P2 - Suma",
+  "descripcion": "Suma dos numeros usando una clase.",
+  "datosEntrada": "Parametro 1: 5\nParametro 2: 8",
+  "resultado": "El resultado es: 13"
+}
