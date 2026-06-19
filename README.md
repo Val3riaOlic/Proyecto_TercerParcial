@@ -581,8 +581,3 @@ Incluye:
 - Proyectos independientes de grafo, digrafo y árbol.
 
 ---
-
-## Licencia
-
-Este repositorio no especifica una licencia.  
-Su uso está orientado principalmente a fines educativos y académicos.
