@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapa>
+  <titulo>Ruta CDMX a Puebla con cuota, libre y rutas mixtas</titulo>
+  <orientado>true</orientado>
+  <paradas>
+    <parada><clave>0</clave><nombre>Ciudad de Mexico</nombre></parada>
+    <parada><clave>1</clave><nombre>Salida Zaragoza</nombre></parada>
+    <parada><clave>2</clave><nombre>Caseta San Marcos</nombre></parada>
+    <parada><clave>3</clave><nombre>Rio Frio</nombre></parada>
+    <parada><clave>4</clave><nombre>San Martin Texmelucan</nombre></parada>
+    <parada><clave>5</clave><nombre>Caseta San Martin</nombre></parada>
+    <parada><clave>6</clave><nombre>Puebla Centro</nombre></parada>
+    <parada><clave>7</clave><nombre>Chalco</nombre></parada>
+    <parada><clave>8</clave><nombre>Ixtapaluca</nombre></parada>
+    <parada><clave>9</clave><nombre>Amecameca</nombre></parada>
+    <parada><clave>10</clave><nombre>San Nicolas de los Ranchos</nombre></parada>
+    <parada><clave>11</clave><nombre>Cholula</nombre></parada>
+  </paradas>
+  <tramos>
+    <tramo>
+      <origen>0</origen>
+      <destino>1</destino>
+      <codigo>cdmx_zaragoza</codigo>
+      <minutos>15.0</minutos>
+      <pesos>0.0</pesos>
+      <comentario>Salida de CDMX por Calzada Ignacio Zaragoza</comentario>
+    </tramo>
+
+
+    <tramo>
+      <origen>2</origen>
+      <destino>1</destino>
+      <codigo>cdmx_zaragoza1</codigo>
+      <minutos>15.0</minutos>
+      <pesos>0.0</pesos>
+      <comentario>Salida de CDMX por Calzada Ignacio Zaragoza</comentario>
+    </tramo>
+    <tramo>
+      <origen>2</origen>
+      <destino>2</destino>
+      <codigo>cdmx_zaragozal</codigo>
+      <minutos>15.0</minutos>
+      <pesos>0.0</pesos>
+      <comentario>Salida de CDMX por Calzada Ignacio Zaragoza</comentario>
+    </tramo>
+    <tramo>
+      <origen>3</origen>
+      <destino>2</destino>
+      <codigo>cdmx_zaragoza3</codigo>
+      <minutos>15.0</minutos>
+      <pesos>0.0</pesos>
+      <comentario>Salida de CDMX por Calzada Ignacio Zaragoza</comentario>
+    </tramo>
+
+    <tramo>
+      <origen>1</origen>
+      <destino>2</destino>
+      <codigo>zaragoza_san_marcos</codigo>
+      <minutos>25.0</minutos>
+      <pesos>173.0</pesos>
+      <comentario>Autopista Mexico-Puebla; caseta San Marcos</comentario>
+    </tramo>
+    <tramo>
+      <origen>2</origen>
+      <destino>3</destino>
+      <codigo>san_marcos_rio_frio</codigo>
+      <minutos>35.0</minutos>
+      <pesos>0.0</pesos>
+      <comentario>Tramo de cuota hacia Rio Frio</comentario>
+    </tramo>
+    <tramo>
+      <origen>3</origen>
+      <destino>4</destino>
+      <codigo>rio_frio_san_martin</codigo>
+      <minutos>35.0</minutos>
+      <pesos>0.0</pesos>
+      <comentario>Continuacion por autopista 150D</comentario>
+    </tramo>
+    <tramo>
+      <origen>4</origen>
+      <destino>5</destino>
+      <codigo>san_martin_caseta</codigo>
+      <minutos>10.0</minutos>
+      <pesos>53.0</pesos>
+      <comentario>Caseta San Martin Texmelucan-Puebla</comentario>
+    </tramo>
+    <tramo>
+      <origen>5</origen>
+      <destino>6</destino>
+      <codigo>caseta_san_martin_puebla</codigo>
+      <minutos>20.0</minutos>
+      <pesos>0.0</pesos>
+      <comentario>Entrada a Puebla por autopista</comentario>
+    </tramo>
+    <tramo>
+      <origen>0</origen>
+      <destino>7</destino>
+      <codigo>cdmx_chalco_libre</codigo>
+      <minutos>35.0</minutos>
+      <pesos>0.0</pesos>
+      <comentario>Salida libre desde CDMX hacia Chalco</comentario>
+    </tramo>
+    <tramo>
+      <origen>7</origen>
+      <destino>8</destino>
+      <codigo>chalco_ixtapaluca_libre</codigo>
+      <minutos>20.0</minutos>
+      <pesos>0.0</pesos>
+      <comentario>Carretera libre Chalco-Ixtapaluca</comentario>
+    </tramo>
+    <tramo>
+      <origen>8</origen>
+      <destino>9</destino>
+      <codigo>ixtapaluca_amecameca_libre</codigo>
+      <minutos>45.0</minutos>
+      <pesos>0.0</pesos>
+      <comentario>Ruta libre hacia Amecameca</comentario>
+    </tramo>
+    <tramo>
+      <origen>9</origen>
+      <destino>10</destino>
+      <codigo>amecameca_san_nicolas_libre</codigo>
+      <minutos>45.0</minutos>
+      <pesos>0.0</pesos>
+      <comentario>Camino libre por zona de volcanes</comentario>
+    </tramo>
+    <tramo>
+      <origen>10</origen>
+      <destino>11</destino>
+      <codigo>san_nicolas_cholula_libre</codigo>
+      <minutos>40.0</minutos>
+      <pesos>0.0</pesos>
+      <comentario>Camino libre hacia Cholula</comentario>
+    </tramo>
+    <tramo>
+      <origen>11</origen>
+      <destino>6</destino>
+      <codigo>cholula_puebla_libre</codigo>
+      <minutos>25.0</minutos>
+      <pesos>0.0</pesos>
+      <comentario>Entrada libre de Cholula a Puebla</comentario>
+    </tramo>
+    <tramo>
+      <origen>7</origen>
+      <destino>2</destino>
+      <codigo>chalco_san_marcos_mixta</codigo>
+      <minutos>25.0</minutos>
+      <pesos>173.0</pesos>
+      <comentario>Opcion mixta: entrar a autopista por San Marcos</comentario>
+    </tramo>
+    <tramo>
+      <origen>8</origen>
+      <destino>3</destino>
+      <codigo>ixtapaluca_rio_frio_mixta</codigo>
+      <minutos>50.0</minutos>
+      <pesos>0.0</pesos>
+      <comentario>Opcion mixta: continuar libre y conectar hacia Rio Frio</comentario>
+    </tramo>
+    <tramo>
+      <origen>3</origen>
+      <destino>11</destino>
+      <codigo>rio_frio_cholula_libre</codigo>
+      <minutos>80.0</minutos>
+      <pesos>0.0</pesos>
+      <comentario>Desvio libre de Rio Frio hacia Cholula</comentario>
+    </tramo>
+    <tramo>
+      <origen>4</origen>
+      <destino>11</destino>
+      <codigo>san_martin_cholula_libre</codigo>
+      <minutos>45.0</minutos>
+      <pesos>0.0</pesos>
+      <comentario>Opcion libre desde San Martin hacia Cholula</comentario>
+    </tramo>
+    <tramo>
+      <origen>2</origen>
+      <destino>4</destino>
+      <codigo>san_marcos_san_martin_directo</codigo>
+      <minutos>65.0</minutos>
+      <pesos>0.0</pesos>
+      <comentario>Tramo directo de autopista hacia San Martin</comentario>
+    </tramo>
+    <tramo>
+      <origen>1</origen>
+      <destino>7</destino>
+      <codigo>zaragoza_chalco_desvio</codigo>
+      <minutos>25.0</minutos>
+      <pesos>0.0</pesos>
+      <comentario>Desvio desde Zaragoza hacia ruta libre por Chalco</comentario>
+    </tramo>
+  </tramos>
+</mapa>

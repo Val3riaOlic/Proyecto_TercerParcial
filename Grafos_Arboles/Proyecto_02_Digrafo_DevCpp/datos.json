@@ -1,0 +1,200 @@
+{
+  "titulo": "Ruta CDMX a Puebla con cuota, libre y rutas mixtas",
+  "orientado": true,
+  "paradas": [
+    {
+      "clave": 0,
+      "nombre": "Ciudad de Mexico"
+    },
+    {
+      "clave": 1,
+      "nombre": "Salida Zaragoza"
+    },
+    {
+      "clave": 2,
+      "nombre": "Caseta San Marcos"
+    },
+    {
+      "clave": 3,
+      "nombre": "Rio Frio"
+    },
+    {
+      "clave": 4,
+      "nombre": "San Martin Texmelucan"
+    },
+    {
+      "clave": 5,
+      "nombre": "Caseta San Martin"
+    },
+    {
+      "clave": 6,
+      "nombre": "Puebla Centro"
+    },
+    {
+      "clave": 7,
+      "nombre": "Chalco"
+    },
+    {
+      "clave": 8,
+      "nombre": "Ixtapaluca"
+    },
+    {
+      "clave": 9,
+      "nombre": "Amecameca"
+    },
+    {
+      "clave": 10,
+      "nombre": "San Nicolas de los Ranchos"
+    },
+    {
+      "clave": 11,
+      "nombre": "Cholula"
+    }
+  ],
+  "tramos": [
+    {
+      "origen": 0,
+      "destino": 1,
+      "codigo": "cdmx_zaragoza",
+      "minutos": 15,
+      "pesos": 0,
+      "comentario": "Salida de CDMX por Calzada Ignacio Zaragoza"
+    },
+    {
+      "origen": 1,
+      "destino": 2,
+      "codigo": "zaragoza_san_marcos",
+      "minutos": 25,
+      "pesos": 173,
+      "comentario": "Autopista Mexico-Puebla; caseta San Marcos"
+    },
+    {
+      "origen": 2,
+      "destino": 3,
+      "codigo": "san_marcos_rio_frio",
+      "minutos": 35,
+      "pesos": 0,
+      "comentario": "Tramo de cuota hacia Rio Frio"
+    },
+    {
+      "origen": 3,
+      "destino": 4,
+      "codigo": "rio_frio_san_martin",
+      "minutos": 35,
+      "pesos": 0,
+      "comentario": "Continuacion por autopista 150D"
+    },
+    {
+      "origen": 4,
+      "destino": 5,
+      "codigo": "san_martin_caseta",
+      "minutos": 10,
+      "pesos": 53,
+      "comentario": "Caseta San Martin Texmelucan-Puebla"
+    },
+    {
+      "origen": 5,
+      "destino": 6,
+      "codigo": "caseta_san_martin_puebla",
+      "minutos": 20,
+      "pesos": 0,
+      "comentario": "Entrada a Puebla por autopista"
+    },
+    {
+      "origen": 0,
+      "destino": 7,
+      "codigo": "cdmx_chalco_libre",
+      "minutos": 35,
+      "pesos": 0,
+      "comentario": "Salida libre desde CDMX hacia Chalco"
+    },
+    {
+      "origen": 7,
+      "destino": 8,
+      "codigo": "chalco_ixtapaluca_libre",
+      "minutos": 20,
+      "pesos": 0,
+      "comentario": "Carretera libre Chalco-Ixtapaluca"
+    },
+    {
+      "origen": 8,
+      "destino": 9,
+      "codigo": "ixtapaluca_amecameca_libre",
+      "minutos": 45,
+      "pesos": 0,
+      "comentario": "Ruta libre hacia Amecameca"
+    },
+    {
+      "origen": 9,
+      "destino": 10,
+      "codigo": "amecameca_san_nicolas_libre",
+      "minutos": 45,
+      "pesos": 0,
+      "comentario": "Camino libre por zona de volcanes"
+    },
+    {
+      "origen": 10,
+      "destino": 11,
+      "codigo": "san_nicolas_cholula_libre",
+      "minutos": 40,
+      "pesos": 0,
+      "comentario": "Camino libre hacia Cholula"
+    },
+    {
+      "origen": 11,
+      "destino": 6,
+      "codigo": "cholula_puebla_libre",
+      "minutos": 25,
+      "pesos": 0,
+      "comentario": "Entrada libre de Cholula a Puebla"
+    },
+    {
+      "origen": 7,
+      "destino": 2,
+      "codigo": "chalco_san_marcos_mixta",
+      "minutos": 25,
+      "pesos": 173,
+      "comentario": "Opcion mixta: entrar a autopista por San Marcos"
+    },
+    {
+      "origen": 8,
+      "destino": 3,
+      "codigo": "ixtapaluca_rio_frio_mixta",
+      "minutos": 50,
+      "pesos": 0,
+      "comentario": "Opcion mixta: continuar libre y conectar hacia Rio Frio"
+    },
+    {
+      "origen": 3,
+      "destino": 11,
+      "codigo": "rio_frio_cholula_libre",
+      "minutos": 80,
+      "pesos": 0,
+      "comentario": "Desvio libre de Rio Frio hacia Cholula"
+    },
+    {
+      "origen": 4,
+      "destino": 11,
+      "codigo": "san_martin_cholula_libre",
+      "minutos": 45,
+      "pesos": 0,
+      "comentario": "Opcion libre desde San Martin hacia Cholula"
+    },
+    {
+      "origen": 2,
+      "destino": 4,
+      "codigo": "san_marcos_san_martin_directo",
+      "minutos": 65,
+      "pesos": 0,
+      "comentario": "Tramo directo de autopista hacia San Martin"
+    },
+    {
+      "origen": 1,
+      "destino": 7,
+      "codigo": "zaragoza_chalco_desvio",
+      "minutos": 25,
+      "pesos": 0,
+      "comentario": "Desvio desde Zaragoza hacia ruta libre por Chalco"
+    }
+  ]
+}
